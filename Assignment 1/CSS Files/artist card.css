@@ -1,0 +1,66 @@
+
+
+.artist-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.artist-card {
+    font-family: sans-serif;
+    width: 190px;
+    height: 200px;
+    padding: 10px;
+    transition: all 0.20s ease-in;
+    position: relative; 
+}
+
+.artist-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; 
+}
+
+.artist-image-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.artist-overlay-content {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.artist-play-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.artist-card-content {
+    padding: 3px;
+    text-align: center;
+}
+
+.artist-name {
+    font-size: 18px;
+    margin: 5px 3px;
+    color: white;
+}
+
+.artist-card:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.artist-card:hover .artist-overlay-content {
+    opacity: 1;
+}

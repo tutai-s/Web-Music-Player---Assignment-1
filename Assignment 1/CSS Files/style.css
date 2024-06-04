@@ -1,0 +1,265 @@
+html {
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+/* Custom Scroll Bar */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the vertical scroll bar */
+    height: 12px;
+    /* Height of the horizontal scroll bar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(36, 36, 36, 0.655);
+    /* Track color */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+    /* Thumb color */
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(36, 36, 36, 0.655);
+    /* Thumb color on hover */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section {
+    height: 20vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    position: relative;
+    top: 0px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    font-size: 24px;
+    color: white;
+    height: 5vh;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    gap: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-bar {
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    padding: 5px 20px;
+    background-color: #232323;
+    border-radius: 19px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background-color: #232323;
+    color: rgba(255, 255, 255, 0.697);
+    font-size: 16px;
+    padding: 5px 45px 5px 10px;
+}
+
+.profile:hover {
+    color: rgba(255, 255, 255, 0.697);
+}
+
+
+.nav-index {
+    position: fixed;
+    left: 35px;
+    top: 11vh;
+    border-radius: 7px;
+    justify-content: space-around;
+    width: 95%;
+    background-color: #121212;
+}
+
+.nav-index a {
+    margin: 20px 0px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.nav-index a:hover {
+    color: white;
+}
+
+.content {
+    margin: 200px 20px 20px 10px;
+}
+
+.content section {
+    /* border: 2px solid white; */
+    box-shadow: 0px 9px 17px -10px rgba(156, 156, 156, 0.816);
+    color: white;
+    margin: 40px 20px;
+    height: 42vh;
+    padding: 20px;
+}
+
+span:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.727);
+    text-decoration: underline;
+}
+
+.card-container {
+    margin: 10px 5px;
+    gap: 20px;
+}
+
+.review-section {
+    margin: 10px auto;
+    max-width: 95%;
+    padding: 10px;
+}
+
+.reviews {
+    margin: 15px;
+}
+
+.reviews i {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.1s ease-in-out;
+}
+
+.reviews i:hover {
+    background-color: rgba(167, 167, 167, 0.421);
+}
+
+.review-form {
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 9px 17px -10px rgba(156, 156, 156, 0.816);
+    padding: 25px;
+}
+
+.review-form h3 {
+    font-size: 20px;
+}
+
+.review-form input {
+    border: none;
+    outline: none;
+    background-color: #474747bb;
+    color: white;
+    font-size: 13px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 8px 40px 8px 20px;
+}
+
+#review {
+    height: 70px;
+}
+
+.review-form button {
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+}
+
+.review-form button:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.footer {
+    background-color: #141414;
+    margin-top: 30px;
+    padding: 30px;
+    height: 130px;
+}
+
+.footer p {
+    margin-top: 50px;
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-links,
+.social-icons {
+    gap: 40px;
+}
+
+.footer-links a,
+.social-icons a {
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 60%;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: rgb(202, 202, 202);
+}
+
+
+.social-icons a i {
+    font-size: 22px;
+}
+
+.social-icons a:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+
+.other-links {
+    margin: 15px;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.other-links a {
+    color: rgb(93, 93, 93);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.other-links a:hover {
+    text-decoration: underline;
+}
+
+
+#trending p {
+    font-size: 14px;
+    color: #555;
+}
+
