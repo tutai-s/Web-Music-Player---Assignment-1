@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS Files/style.css">
+    <link rel="stylesheet" href="./CSS Files/utility.css">
+    <link rel="stylesheet" href="./CSS Files/review.css">
+    <link rel="stylesheet" href="./CSS Files/card.css">
+    <link rel="stylesheet" href="./CSS Files/artist card.css">
+    <link rel="stylesheet" href="./CSS Files/intro.css">
+    <!-- <link rel="stylesheet" href="./CSS Files/responsive.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav-section">
+
+            <nav>
+                <div class="logo flex items-center gap-xl"><i class="fa-sharp fa-solid fa-music"></i> iMusic</div>
+                <div class="nav-links flex items-center">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search Songs">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="profile flex gap-xl"><i class="fa-regular fa-user"></i>Profile</div>
+
+
+                </div>
+                <div class="nav-index flex">
+                    <a href="#trending">Trending Now</a>
+                    <a href="#Top-Artist">Top Artists</a>
+                    <a href="#charts">Featured Charts</a>
+                    <a href="#iChoice">iChoice Playlist</a>
+                    <a href="#Moods">Moods</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="content">
+            <section id="intro">
+                <div class="bg-img">
+                    <img src="bg img.jpg" alt="" height="370px" width="1495px">
+                </div>
+                <div class="intro-container">
+                    <svg class="logo-intro" viewBox="0 0 100 100">
+                        <circle class="outer-circle" cx="50" cy="50" r="45" />
+                        <circle class="inner-circle" cx="50" cy="50" r="35" />
+                    </svg>
+                    <h1 class="website-name flex gap-xl items-center"><i class="fa-sharp fa-solid fa-music"></i>iMusic</h1>
+                    <p class="subtitle">Feel the Beat of Every Note</p>
+                    <a href="#Top-Artist" class="cta-button">Listen Now</a>
+                </div>
+            </section>
+            <section id="trending">
+                <div class="heading flex items-center justify-between">
+                    <h2>Trending Now</h2>
+                    <span>More</span>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/Sajni re.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Sajni</h2>
+                            <p class="album-info">Ram Sampath - Sajni (From "Laapataa Ladies")</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/Pehele bhi mein.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Pehele Bhi Mein</h2>
+                            <p class="album-info">Vishal Mishra - From "Animal"</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/One Love.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">One Love</h2>
+                            <p class="album-info">Blue - One Love</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/End of Begining.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">End of Begining</h2>
+                            <p class="album-info">Djo-Steve Harrington</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/Tum se.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Tum Se</h2>
+                            <p class="album-info">Sachin-Jigar - Tum Se (From "Teri Baaton Mein Aisa Uljha Jiya")</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/Who am i.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Who I Am</h2>
+                            <p class="album-info">Justin Biber - My World 2.0</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./songs/Dekha Tenu.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">Play</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Dekha Tenu</h2>
+                            <p class="album-info">Jaani, Mohammad Faiz - Dekhha Tenu (From "Mr. And Mrs. Mahi")</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section id="Top-Artist">
+                <div class="heading flex items-center justify-between">
+                    <h2>Top Artists</h2>
+                    <span>More</span>
+                </div>
+                <div class="artist-cards-container">
+                    <div class="artist-card">
+                        <div class="artist-image-overlay">
+                            <img src="./images/Artist/A.R. Rahaman.jpg" alt="Artist Image" class="artist-image">
+                            <div class="artist-overlay-content">
+                                <button class="artist-play-button">▶</button>
+                            </div>
+                        </div>
+                        <div class="artist-card-content">
+                            <h2 class="artist-name">A.R. Rahaman</h2>
+                        </div>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-image-overlay">
+                            <img src="./images/Artist/Pritam.jpg" alt="Artist Image" class="artist-image">
+                            <div class="artist-overlay-content">
+                                <button class="artist-play-button">▶</button>
+                            </div>
+                        </div>
+                        <div class="artist-card-content">
+                            <h2 class="artist-name">Pritam</h2>
+                        </div>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-image-overlay">
+                            <img src="./images/Artist/Arijit Singh.jpg" alt="Artist Image" class="artist-image">
+                            <div class="artist-overlay-content">
+                                <button class="artist-play-button">▶</button>
+                            </div>
+                        </div>
+                        <div class="artist-card-content">
+                            <h2 class="artist-name">Arijit Singh</h2>
+                        </div>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-image-overlay">
+                            <img src="./images/Artist/jasleen.jpg" alt="Artist Image" class="artist-image">
+                            <div class="artist-overlay-content">
+                                <button class="artist-play-button">▶</button>
+                            </div>
+                        </div>
+                        <div class="artist-card-content">
+                            <h2 class="artist-name">Jasleen Royal</h2>
+                        </div>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-image-overlay">
+                            <img src="./images/Artist/Vishal Mishra.jpg" alt="Artist Image" class="artist-image">
+                            <div class="artist-overlay-content">
+                                <button class="artist-play-button">▶</button>
+                            </div>
+                        </div>
+                        <div class="artist-card-content">
+                            <h2 class="artist-name">Vishal Mishra</h2>
+                        </div>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-image-overlay">
+                            <img src="./images/Artist/Badsaah.jpg" alt="Artist Image" class="artist-image">
+                            <div class="artist-overlay-content">
+                                <button class="artist-play-button">▶</button>
+                            </div>
+                        </div>
+                        <div class="artist-card-content">
+                            <h2 class="artist-name">Badshah</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <section id="charts" class="Featured-charts">
+                <div class="heading flex items-center justify-between">
+                    <h2>Featured Charts</h2>
+                    <span>More</span>
+                </div>
+                <div class="card-container">
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/top 100.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">100 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Top 100</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/weekly top 20.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">20 Songs</p>
+
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Weekly Top 20</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/pop top 20.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">20 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Pop Top 20</h2>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/COLLECTION_514025096896273.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">50 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Heartbreak Top 50</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/COLLECTION_373874868701868.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">20 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Indie Top 20</h2>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/romance to 50.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">50 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Romance Top 50</h2>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Ghazal top 50.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">50 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Ghazal Top 50</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="iChoice">
+                <div class="heading flex items-center justify-between">
+                    <h2>iChoice Playlist</h2>
+                    <span>More</span>
+                </div>
+                <div class="card-container">
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Happy Hits.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">132 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Happy Hits</h2>
+                            <p class="album-info">Uplifting tunes for joyful moments</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Chillout Lounge.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">75 Songs</p>
+
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Chillout Lounge</h2>
+                            <p class="album-info">Relaxing beats for ultimate tranquility</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/low Hits.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">90 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Low Hits</h2>
+                            <p class="album-info">Soft melodies for mellow vibes</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/pop up.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">60 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Pop Up Hits</h2>
+                            <p class="album-info">Catchy anthems for lively energy</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Hip Hop.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">45 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Hip Hop Hits</h2>
+                            <p class="album-info">Rhythmic bangers for urban groove</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/kitchen-stereo-hero-30082016.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">23 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Kitchen Stereo</h2>
+                            <p class="album-info">Ultimate tracks for cooking sessions</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Sad Cover.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">105 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Sad Hits</h2>
+                            <p class="album-info">Tunes to mend a broken heart</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Moods">
+                <div class="heading flex items-center justify-between">
+                    <h2>Moods</h2>
+                    <span>More</span>
+                </div>
+                <div class="card-container">
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/nostalgic.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">150 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Nostalgic</h2>
+                            <p class="album-info">Yesterday's Melodies, Today's Memories</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Morning.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">100 Songs</p>
+
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Morning</h2>
+                            <p class="album-info">Sunrise Sounds for Fresh Starts</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/low Hits.jpg" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">90 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Low Hits</h2>
+                            <p class="album-info">Soft melodies for mellow vibes</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Romantic.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">200 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Romantic</h2>
+                            <p class="album-info">Love Songs for Timeless Moments</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Dance.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">150 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Dance</h2>
+                            <p class="album-info">Groove Tonight, Dance Forever</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/Sufi.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">80 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Sufi</h2>
+                            <p class="album-info">Mystical Melodies of Inner Peace</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <div class="image-overlay">
+                            <img src="./images/workout.webp" alt="Album Cover" class="album-image">
+                            <div class="overlay-content">
+                                <button class="play-button">▶</button>
+                                <p class="song-count" style="color: white;">90 Songs</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="album-name">Workout</h2>
+                            <p class="album-info">Pump Up Your Workout Vibes</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <section class="review-section">
+        <h2 class="text-white">User Reviews</h2>
+        <div class="user-review flex justify-center items-center ">
+
+
+            <div class="reviews text-white items-center">
+                <i class="fa-solid fa-angles-left"></i>
+                <div class="review-card">
+                    <img src="./images/boy 2.jpeg" alt="Reviewer Photo">
+                    <h3>Aarav Patel</h3>
+                    <div class="stars">
+                        ★★★★
+                    </div>
+                    <p>This music player app is fantastic! The interface is sleek and user-friendly. Highly recommended
+                    </p>
+                </div>
+
+                <div class="review-card">
+                    <img src="./images/girl 1.jpg" alt="Reviewer Photo">
+                    <h3>Priya Nair</h3>
+                    <div class="stars">
+                        ★★★
+                    </div>
+                    <p>Good app with potential. but faced some issues with syncing my
+                        playlists across devices.</p>
+                </div>
+
+                <div class="review-card">
+                    <img src="./images/girl 2.jpg" alt="Reviewer Photo">
+                    <h3>Srishti Rawat</h3>
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p>Overall, a great app for music lovers. The sound quality is excellent.</p>
+                </div>
+                <div class="review-card">
+                    <img src="./images/boy.jpg" alt="Reviewer Photo">
+                    <h3>Rohan Desai</h3>
+                    <div class="stars">
+                        ★★★★
+                    </div>
+                    <p>The curated playlists are amazing and the app's
+                        performance is smooth and reliable.</p>
+                </div>
+
+                <i class="fa-solid fa-angles-right"></i>
+            </div>
+            <div class="review-form flex flex-col gap-xl">
+                <h3 class="text-white">Your Review</h3>
+
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email Address">
+
+                <input type="text" placeholder="Write your review here..." id="review">
+                <div class="star-rating">
+                    <input type="radio" id="5-stars" name="rating" value="5">
+                    <label for="5-stars" class="star">&#9733;</label>
+                    <input type="radio" id="4-stars" name="rating" value="4">
+                    <label for="4-stars" class="star">&#9733;</label>
+                    <input type="radio" id="3-stars" name="rating" value="3">
+                    <label for="3-stars" class="star">&#9733;</label>
+                    <input type="radio" id="2-stars" name="rating" value="2">
+                    <label for="2-stars" class="star">&#9733;</label>
+                    <input type="radio" id="1-star" name="rating" value="1">
+                    <label for="1-star" class="star">&#9733;</label>
+                </div>
+                <button>Submit Review</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-section flex justify-between">
+            <div class="footer-links flex items-center">
+                <a href="#intro">HOME </a>
+                <a href="https://www.google.com/" target="_blank">ABOUT US </a>
+                <a href="https://www.google.com/" target="_blank">TERMS OF USE</a>
+                <a href="https://www.google.com/" target="_blank">CAREERS</a>
+                <a href="https://www.google.com/" target="_blank">CONTACT US</a>
+            </div>
+            <div class="social-icons text-white flex ">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+
+        </div>
+        <div class="other-links flex">
+            <a href="https://www.youtube.com/" target="_blank">Legal Support</a>
+            <a href="https://www.youtube.com/" target="_blank">Privacy Policy</a>
+            <a href="https://www.youtube.com/" target="_blank">Accessibility</a>
+            <a href="https://www.youtube.com/" target="_blank">About ads</a>
+            <a href="https://www.youtube.com/" target="_blank">Cookies</a>
+
+        </div>
+        <p class="text-white">&copy; 2024 iMusic Private Limited. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
